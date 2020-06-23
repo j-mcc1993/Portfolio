@@ -1,17 +1,13 @@
 import React from 'react';
-import pic from './images/me.jpg';
 
-function NavBar(props) {
-    return (""
-    );
-}
-
+/* Main profile picture component */
 function ProfilePic(props) {
     return (
-        <img className="profile-pic mx-auto d-block rounded-circle" src={pic} />
+        <img className="profile-pic mx-auto d-block rounded-circle" src={"./images/me.jpg"} />
     );
 }
 
+/* Header component, top-level */
 function JumboTron(props) {
     return (
         <div class="container-fluid jumb">
@@ -46,6 +42,7 @@ function JumboTron(props) {
     );
 }
 
+/* Main body content */
 function BodyMain(props) {
     return (
         <div>
@@ -72,6 +69,7 @@ function BodyMain(props) {
     );
 }
 
+/* Top level wrapper */
 function TopLvlBody(props) {
     return(
         <div>
@@ -82,17 +80,3 @@ function TopLvlBody(props) {
 }
 
 export default TopLvlBody;
-
-<nav class="navbar navbar-expand-sm bg-light fixed-bottom">
-<ul class="navbar-nav">
-    <li class="nav-item">
-        <a class="nav-link" href="#">Link 1</a>
-    </li>
-    <li class="nav-item">
-        <a class="nav-link" href="#">Link 2</a>
-    </li>
-    <li class="nav-item">
-        <a class="nav-link" href="#">Link 3</a>
-    </li>
-</ul>
-</nav>
