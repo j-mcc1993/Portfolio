@@ -15,37 +15,33 @@ function ProfilePic(props) {
 function JumboTron(props) {
     return (
         <div class="container-fluid jumb">
-            <div class="overlay">
-                <div class="underlay">
-                    <div class="header">
-                        <h1>Hi, I'm James McCullough</h1>
-                    </div>
-
-                    <div class="row">
-                        <div class="col-sm-3 text-center">
-                            <ul class="navbar-nav">
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#">About me</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#">Projects</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#">Resume</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#">Contact</a>
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="col-sm-6 text-center">
-                            <ProfilePic />
-                        </div>
-                        <div class="col-sm-3"></div>
-                    </div>
-                    <p>Welcome to my website!</p>
-                </div>
+            <div class="header">
+                <h1>Hi, I'm James McCullough</h1>
             </div>
+
+            <div class="row">
+                <div class="col-sm-3 text-center">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About me</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Projects</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Resume</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-sm-6 text-center">
+                    <ProfilePic />
+                </div>
+                <div class="col-sm-3"></div>
+            </div>
+            <p>Welcome to my website!</p>
         </div >
     );
 }

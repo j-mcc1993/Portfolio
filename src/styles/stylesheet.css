@@ -1,26 +1,9 @@
-.jumbotron > p {
-    color: #ffffff;
-}
-
 h1 {
     color: #ffffff;
 }
 
 .jumb {
-
-    background-image: url(../images/HeaderBackground.jpg);
-    background-size: cover;
-    
-}
-
-.overlay {
-    color: #1e2022;
-}
-
-
-
-.jumb > img {
-    opacity: .5;
+    background-color: #1e2022;
 }
 
 .nav-link {
@@ -29,14 +12,6 @@ h1 {
 
 .header {
     text-align: center;
-}
-
-li {
-    display: block;
-}
-
-.navbar {
-    height: 3rem;
 }
 
 .profile-pic {
@@ -50,23 +25,6 @@ li {
 html, body {
     background-color: #f0f5f9;
     height: 100%;
-}
-
-.square > button {
-    margin: 0 0 0 0;
-    padding: 0 0 0 0;
-    height: inherit;
-    width: inherit;
-    border: none;
-}
-
-.square-light {
-    background-color: rgb(236, 236, 236);
-
-}
-
-.square-dark {
-    background-color: rgb(94, 127, 160);
 }
 
 .flex-container {
@@ -85,10 +43,4 @@ html, body {
     font-size: 30px;
     margin: 0 0 0 0;
     padding: 0 0 0 0;
-}
-
-.jumbotron {
-    background-color: #1e2022;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
 }
