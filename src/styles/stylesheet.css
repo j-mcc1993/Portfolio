@@ -29,21 +29,27 @@ h2 {
     text-align: right;
 }
 
-p.nav-item {
+a.nav-item {
     color: white;
     font-size: 11px;
 }
 
-p.nav-item-active {
+a.nav-item-active {
     color: #F29559;
+}
+
+a.nav-item:hover {
+    color: #F29559;
+    text-decoration: none;
 }
 
 .page-header {
     color: #ffffff;
-    font-family: 'Yellowtail';
-    font-size: 48px;
+    font-family: 'Rock Salt';
+    font-size: 36px;
     text-align: center;
-    padding-top: 15px;
+    text-decoration: underline;
+    padding-top: 20px;
 }
 
 div.jumbo-row {
@@ -58,7 +64,7 @@ div.jumbo {
     border-width: 1px;
     border-radius: 15px;
     border-color: #ffffff;
-
+    background-color: #283845;
     color: #ffffff;
     padding: 15px;
     margin: 25px auto 15px auto;
@@ -98,12 +104,16 @@ div.namecard-tag {
 }
 
 h2.namecard-header {
-    font-size: 48px;
+    font-size: 55px;
     font-weight: 800;
 }
 
-span {
-    color: #F29559;
+span.orange {
+    color: #f29559;
+}
+
+span.blue {
+    color: #bce7fd;
 }
 
 p.namecard-par {
@@ -121,10 +131,13 @@ div.hire-me-header {
     border: solid;
     border-width: 1px;
     border-radius: 15px;
-    
     border-color: #ffffff;
     padding: 25px;
     margin: auto 10px auto 15px;
+}
+
+address {
+    color: #c492b1;
 }
 
 div.project-container {
@@ -135,6 +148,7 @@ div.project-wrapper {
     display: inline-flex;
     flex-wrap: wrap;
     justify-content: center;
+    background-color: #283845;
     border: solid;
     border-width: 1px;
     border-radius: 15px;
@@ -145,10 +159,39 @@ div.project-wrapper {
 }
 
 div.project {
+    background-size: cover;
     height: 500px;
     width: 500px;
     border: solid;
     border-width: 1px;
     border-color: #ffffff;
-    margin: 5px;
+    margin: 5px 5px 20px 5px;
+}
+
+div.project-overlay {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .25s ease;
+    background-color: #202c39;
+}
+
+a.project-link {
+    color: #ffffff;
+}
+
+a.project-link:hover .project-overlay {
+    opacity: .85;
+}
+
+a.project-link:hover {
+    text-decoration: none;
+}
+
+p.overlay-par {
+    width: 300px;
+    margin: 0 auto;
 }
