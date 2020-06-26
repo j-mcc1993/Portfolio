@@ -165,7 +165,8 @@ div.project {
     border: solid;
     border-width: 1px;
     border-color: #ffffff;
-    margin: 5px 5px 20px 5px;
+    box-shadow: 0 0 7px;
+    margin: 6px 6px 20px 6px;
 }
 
 div.project-overlay {
@@ -191,7 +192,11 @@ a.project-link:hover {
     text-decoration: none;
 }
 
+a {
+    color: #F29559;
+}
+
 p.overlay-par {
-    width: 300px;
+    width: 375px;
     margin: 0 auto;
 }
