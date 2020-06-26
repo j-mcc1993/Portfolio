@@ -1,46 +1,154 @@
-h1 {
-    color: #ffffff;
+/*
+ * Filename: stylesheet.css
+ * Author: James McCullough
+ * Date: 6/25/20
+ */
+
+html, body {
+    height: 100%;
+    background-color: #202C39;
 }
 
-.jumb {
-    background-color: #1e2022;
+h2 {
+    font-family: 'Baloo Thambi 2';
 }
 
-.nav-link {
-    color: #f0f5f9;
-}
-
-.header {
+.nav-item-div {
+    display: inline-block;
+    height: 1.5em;
+    width: 8ch;
     text-align: center;
+    border-bottom: solid;
+    border-bottom-width: .5px;
+    border-color: #F29559;
+}
+
+.nav-div {
+    height: 5em;
+    padding: 5px 30px 0px 0px;
+    text-align: right;
+}
+
+p.nav-item {
+    color: white;
+    font-size: 11px;
+}
+
+p.nav-item-active {
+    color: #F29559;
+}
+
+.page-header {
+    color: #ffffff;
+    font-family: 'Yellowtail';
+    font-size: 48px;
+    text-align: center;
+    padding-top: 15px;
+}
+
+div.jumbo-row {
+    text-align: center;
+}
+
+div.jumbo {
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    border: solid;
+    border-width: 1px;
+    border-radius: 15px;
+    border-color: #ffffff;
+
+    color: #ffffff;
+    padding: 15px;
+    margin: 25px auto 15px auto;
 }
 
 .profile-pic {
     height: 200px;
     border: solid;
     border-color: #f0f5f9;
-    margin-bottom: 20px;
-    margin-top: 20px;
 }
 
-html, body {
-    background-color: #f0f5f9;
-    height: 100%;
-}
-
-.flex-container {
-    display: flex;
-    justify-content: center;
-    margin: 0 0 0 0;
-    padding: 0 0 0 0;
-  }
-  
-.flex-container > div {
-    background-color: #f1f1f1;
-    height: 75px;
-    width: 75px;
+div.namecard {
+    display: inline-block;
+    border: solid;
+    border-radius: 15px;
+    border-color: #ffffff;
+    padding: 25px;
     text-align: center;
-    line-height: 75px;
-    font-size: 30px;
-    margin: 0 0 0 0;
-    padding: 0 0 0 0;
+    margin: 10px;
+}
+
+div.namecard-par-div {
+    text-align: center;
+    width: inherit;
+}
+
+
+div.namecard-pic {
+    display: inline-block;
+}
+
+div.namecard-tag {
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    padding: 0px 0px 0px 20px;;
+}
+
+h2.namecard-header {
+    font-size: 48px;
+    font-weight: 800;
+}
+
+span {
+    color: #F29559;
+}
+
+p.namecard-par {
+    width: 300px;
+    margin: 0 auto;
+}
+
+div.hire-me {
+    display: flex;
+    text-align: center;
+}
+
+div.hire-me-header {
+    display: inline-block;
+    border: solid;
+    border-width: 1px;
+    border-radius: 15px;
+    
+    border-color: #ffffff;
+    padding: 25px;
+    margin: auto 10px auto 15px;
+}
+
+div.project-container {
+    text-align: center;
+}
+
+div.project-wrapper {
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border: solid;
+    border-width: 1px;
+    border-radius: 15px;
+    border-color: #ffffff;
+    padding: 10px;
+    margin: 10px 5% 0px 5%;
+    max-width: 1555px;
+}
+
+div.project {
+    height: 500px;
+    width: 500px;
+    border: solid;
+    border-width: 1px;
+    border-color: #ffffff;
+    margin: 5px;
 }

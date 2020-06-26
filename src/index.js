@@ -2,8 +2,20 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './styles/stylesheet.css';
 import TopLvlBody from './home.js';
+import WebFont from 'webfontloader';
 
-//ReactDOM.render(<h1>Helloworld React!</h1>, document.getElementById('root'));
-//ReactDOM.render(<Board row_length={8} />, document.getElementById("root"));
+  WebFont.load({
+
+    google: {
+      families: [
+                'Shadows Into Light',
+                'Yellowtail', 
+                'Roboto', 
+                'Pacifico', 
+                'Permanent Marker', 
+                'Baloo Thambi 2:800'
+                ]
+
+     }});
+
 ReactDOM.render(<TopLvlBody />, document.getElementById("root"));
-
