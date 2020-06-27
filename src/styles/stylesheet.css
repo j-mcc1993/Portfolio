@@ -136,7 +136,7 @@ div.hire-me-header {
     margin: auto 10px auto 15px;
 }
 
-address {
+#email {
     color: #c492b1;
 }
 
@@ -156,6 +156,7 @@ div.project-wrapper {
     padding: 10px;
     margin: 10px 5% 0px 5%;
     max-width: 1555px;
+    margin-bottom: 30px;
 }
 
 div.project {
@@ -192,11 +193,40 @@ a.project-link:hover {
     text-decoration: none;
 }
 
-a {
-    color: #F29559;
-}
-
 p.overlay-par {
     width: 375px;
     margin: 0 auto;
+}
+
+hr {
+    border-color: #a6a2a2;
+    width: 50%;
+    margin: 25px auto 5px auto;
+}
+
+div.footer {
+    text-align: center;
+}
+
+div.icon-attr {
+    display: inline-flex;
+    font-size: 10px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    padding: 5px;
+    border: solid;
+    border-width: 1px;
+    border-color: #a6a2a2;
+}
+
+a.icon-link {
+    color: #a6a2a2;
+}
+
+a.icon-link:hover {
+    color: #485665;
+}
+
+svg {
+    margin: 5px;
 }
