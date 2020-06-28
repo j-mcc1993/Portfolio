@@ -135,7 +135,7 @@ function MainBody(props) {
                             posted?  I used Python and the PRAW library to crawl Reddit and collect post-time
                             data on hundreds of top posts to find out.  This script displays a histogram showing
                             the distribution of post-times across each hour of the day.  It turns out the
-                            majority of the top posts get posted in between 6am and 12pm Pacific Time.  Makes
+                            majority of the top posts get posted between 6am and 12pm Pacific Time.  Makes
                             some sense!
                         </p>
                     } />
