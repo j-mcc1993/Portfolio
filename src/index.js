@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import App from './app';
 import './styles/stylesheet.css';
-import TopLvlBody from './home.js';
 import WebFont from 'webfontloader';
 import './images/snes.jpg';
 import './images/nes.jpg';
@@ -20,8 +20,7 @@ WebFont.load({
             'Permanent Marker',
             'Baloo Thambi 2:800'
         ]
-
     }
 });
 
-ReactDOM.render(<TopLvlBody />, document.getElementById("root"));
+ReactDOM.render(<App />, document.getElementById("root"));
