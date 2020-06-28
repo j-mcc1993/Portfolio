@@ -18,10 +18,10 @@ function NavBar(props) {
                     <a href={Pdf} target="_blank" className="nav-item">Resume</a>
                 </div>
                 <div className="nav-item-div">
-                    <NavLink to="/contact" className="nav-item">Contact</NavLink>
+                    <NavLink to="/about" className="nav-item">About Me</NavLink>
                 </div>
                 <div className="nav-item-div">
-                    <NavLink to="/about" className="nav-item">About Me</NavLink>
+                    <NavLink to="/contact" className="nav-item">Contact</NavLink>
                 </div>
             </div>
         </div>

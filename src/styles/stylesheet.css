@@ -9,6 +9,34 @@ html, body {
     background-color: #202C39;
 }
 
+div.generic-container {
+    text-align: center;
+}
+
+div.wrapper {
+    display: inline-flex;
+    text-align: center;
+    background-color: #283845;
+    border: solid;
+    border-width: 1px;
+    border-radius: 15px;
+    border-color: #ffffff;
+    padding: 15px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+div.content {
+    text-align: center;
+    color: #ffffff;
+    background-color: #202C39;
+    border: solid;
+    border-width: 1px;
+    border-radius: 15px;
+    border-color: #ffffff;
+    padding: 15px;
+}
+
 h2 {
     font-family: 'Baloo Thambi 2';
 }
@@ -50,10 +78,6 @@ a.nav-item:hover {
     text-align: center;
     text-decoration: underline;
     padding-top: 20px;
-}
-
-div.jumbo-row {
-    text-align: center;
 }
 
 div.jumbo {
@@ -104,6 +128,7 @@ div.namecard-tag {
 }
 
 h2.namecard-header {
+    color: #ffffff;
     font-size: 55px;
     font-weight: 800;
 }
@@ -140,10 +165,6 @@ div.hire-me-header {
     color: #c492b1;
 }
 
-div.project-container {
-    text-align: center;
-}
-
 div.project-wrapper {
     display: inline-flex;
     flex-wrap: wrap;
@@ -173,7 +194,7 @@ div.project {
 div.project-overlay {
     display: flex;
     align-items: center;
-    text-align: center;
+    text-align: left;
     height: 100%;
     width: 100%;
     opacity: 0;
@@ -229,4 +250,34 @@ a.icon-link:hover {
 
 svg {
     margin: 5px;
+}
+
+
+div.about-me-profile {
+    display: inline-block;
+    width: 50%;
+    text-align: center;
+    padding: 10px;
+}
+
+div.about-me-text {
+    width: 50%;
+    max-width: 415px;
+    text-align: left;
+    vertical-align: top;
+    display: inline-block;
+    padding: 10px;
+}
+
+div.about-me-header {
+    display: block;
+}
+
+h2.about {
+    width: 100%;
+    margin: 0;
+}
+
+a.tab {
+    padding-left: 10px;
 }

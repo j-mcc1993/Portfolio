@@ -1,6 +1,8 @@
 import React from 'react';
 import NavBar from './navbar.js';
 import Home from './home.js';
+import About from './about.js';
+import Contact from './contact.js';
 import Footer from './footer.js';
 import {
     BrowserRouter as Router,
@@ -17,11 +19,11 @@ function App(props) {
                 <Route exact path="/">
                     <Home />
                 </Route>
-                <Route path="/contact">
-                    <Home />
-                </Route>
                 <Route path="/about">
-                    <Home />
+                    <About />
+                </Route>
+                <Route path="/contact">
+                    <Contact />
                 </Route>
             </Switch>
             <Footer />

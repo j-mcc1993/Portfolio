@@ -15,10 +15,10 @@ function Project(props) {
     );
 }
 
-/* Jumbotron-like div containing profile pic + hire me button */
+/* Jumbotron-like div containing profile pic + hire me frame */
 function JumboTron(props) {
     return (
-        <div className="jumbo-row">
+        <div className="generic-container">
             <div className="jumbo">
                 <div className="namecard">
                     <div className="namecard-pic">
@@ -46,10 +46,10 @@ function JumboTron(props) {
     );
 }
 
-/* Main body content */
+/* Main project body content */
 function MainBody(props) {
     return (
-        <div className="projects-container">
+        <div className="generic-container">
             <h1 className="page-header">Projects</h1>
             <div className="project-wrapper">
                 <Project url={'https://github.com/j-mcc1993/Portfolio'}
