@@ -38,7 +38,7 @@ function JumboTron(props) {
                     <h2>Want to <span className="blue">hire me</span>?</h2>
                     <p className="hire-me-par">Email me at:</p>
                     <address>
-                        <a href="mailto: j1mccull@ucsd.edu" id="email"><b>j1mccull@ucsd.edu</b></a>
+                        <a href="mailto: j1mccull@ucsd.edu" id="email"><b>j.mccull001@gmail.com</b></a>
                     </address>
                 </div>
             </div >
