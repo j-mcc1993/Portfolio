@@ -1,7 +1,7 @@
 {
-  "name": "Portfolio",
+  "name": "portfolio",
   "version": "1.0.0",
-  "description": "",
+  "description": "A react-based personal portfolio website.",
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server --open",
