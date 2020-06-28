@@ -61,14 +61,14 @@ function MainBody(props) {
                             written with React.js, and the site is hosted on Firebase.  This project 
                             taught me a lot about React and the various development tools involved in 
                             building an app like Webpack and Babel. Web design is one of my favorite ways 
-                            to combine my loves of art and coding.  React fits well into my workflow because 
+                            to combine my loves of both art and coding.  React fits well into my workstyle because 
                             it brings the code for how things look together with the code for how things work.  
                             As a programmer with a traditional background in languages like Java and C++, React 
                             eases the transition into web-development by offering an Object-Oriented style approach 
                             to building websites and applications.
                         </p>
                     } />
-                <Project url={'https://github.com/j-mcc1993/NES_Keyboard'}
+                <Project url={'https://www.youtube.com/watch?v=KUkmpLqLkWs'}
                     imgStyle={{ backgroundImage: "url('../images/nes.jpg')" }}
                     title={'NES_Keyboard Arduino Library'}
                     description={
@@ -76,10 +76,9 @@ function MainBody(props) {
                             This is an Arduino microcontroller library, written in C++, that handles serial
                             communication over USB between an NES game controller and a user's computer.
                             The library allows the user to press keyboard keys using the buttons of the analog
-                            controller.  The purpose of the library is to allow users to use their original
-                            game controllers to play emulated versions of their favorite games on their home
-                            computers.  You can see this code in action by following this link to the github
-                            repo where you will find a link to my YouTube demo video!
+                            controller.  The purpose of the library is to allow users to play emulated versions 
+                            of their favorite retro games using their original analog game controllers.  You 
+                            can see the code in action by clicking this text to watch my demo video!
                         </p>
                     } />
                 <Project url={'https://github.com/j-mcc1993/SNES_Keyboard'}
@@ -95,7 +94,7 @@ function MainBody(props) {
                             libraries allow arduino boards to mimic the polling behavior of the game
                             console to read the controller's button state.  Combined with libraries
                             for controlling keyboard presses with Arduino, you have a fully functional,
-                            and authentic, game controller for retro classNameics.  Of all the code I've
+                            and authentic, game controller for retro classics.  Of all the code I've
                             written, I've used this the most!
                         </p>
                     } />
@@ -106,11 +105,11 @@ function MainBody(props) {
                         <p className="overlay-par">
                             When I was studying CS at UCSD, one of my professors became the inspiration
                             of many fun-spirited memes and copypastas on our school subreddit due to his
-                            notoriously difficult classNamees.  I wrote a Python-based Reddit bot to periodically
+                            notoriously difficult classes.  I wrote a Python-based Reddit bot to periodically
                             scan the USCD subreddit for new posts about this professor and post memes in the
                             comments.  To keep this bot running full time, the Python script lived on my
-                            Raspberry Pi inside a cron job that ran every 30 minutes.  I always enjoyed
-                            meeting new classNamemates who were familiar with the bot from reading the
+                            Raspberry Pi inside a cron job that executed every 30 minutes.  I always enjoyed
+                            meeting new classmates who were familiar with the bot from reading the
                             subreddit!
                         </p>
                     } />
