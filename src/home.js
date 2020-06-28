@@ -57,13 +57,15 @@ function MainBody(props) {
                     title={'Portfolio Website'}
                     description={
                         <p className="overlay-par">
-                            This website was designed and developed by me!  I used React.js to develop
-                            the front-end, and Node.js for the back-end.  Web design is one of my
-                            favorite ways to combine my love of art and coding.  React fits well into
-                            my workflow because it brings the code for how things look together with the
-                            code for how things work.  As a programmer with a traditional background in
-                            languages like Java and C++, React eases the transition into web-development
-                            by offering an Object-Oriented style approach to building apps.
+                            This website was designed and developed entirely by me!  I used React.js to 
+                            develop the front-end and is hosted on Firebase.  This project taught me a 
+                            lot about React and the various development tools involved in building an
+                            app. Web design is one of my favorite ways to combine my loves of art and 
+                            coding.  React fits well into my workflow because it brings the code for how 
+                            things look together with the code for how things work.  As a programmer with 
+                            a traditional background in languages like Java and C++, React eases the 
+                            transition into web-development by offering an Object-Oriented style approach 
+                            to building apps.
                         </p>
                     } />
                 <Project url={'https://github.com/j-mcc1993/NES_Keyboard'}
