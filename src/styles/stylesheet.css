@@ -6,11 +6,15 @@
 
 html, body {
     height: 100%;
+    width: 100%;
     background-color: #202C39;
 }
 
 div.generic-container {
+    width: 100%;
     text-align: center;
+    margin: 0;
+    padding: 0;
 }
 
 div.wrapper {
@@ -24,6 +28,7 @@ div.wrapper {
     padding: 15px;
     margin-top: 30px;
     margin-bottom: 30px;
+    max-width: 100%;
 }
 
 div.content {
@@ -71,14 +76,18 @@ a.nav-item:hover {
     text-decoration: none;
 }
 
+div.header {
+    text-align: center;
+}
+
 .page-header {
     color: #ffffff;
     font-family: 'Rock Salt';
     font-size: 36px;
-    text-align: center;
     text-decoration: underline;
     padding-top: 20px;
 }
+
 
 div.jumbo {
     display: inline-flex;
@@ -108,6 +117,8 @@ div.namecard {
     padding: 25px;
     text-align: center;
     margin: 10px;
+    background-color: #283845;
+    max-width: 90%;
 }
 
 div.namecard-par-div {
@@ -159,6 +170,7 @@ div.hire-me-header {
     border-color: #ffffff;
     padding: 25px;
     margin: auto 10px auto 15px;
+    background-color: #283845;
 }
 
 #email {
@@ -169,6 +181,7 @@ div.project-wrapper {
     display: inline-flex;
     flex-wrap: wrap;
     justify-content: center;
+    text-align: center;
     background-color: #283845;
     border: solid;
     border-width: 1px;
@@ -188,7 +201,7 @@ div.project {
     border-width: 1px;
     border-color: #ffffff;
     box-shadow: 0 0 7px;
-    margin: 6px 6px 20px 6px;
+
 }
 
 div.project-overlay {
@@ -204,6 +217,7 @@ div.project-overlay {
 
 a.project-link {
     color: #ffffff;
+    margin: 6px 6px 20px 6px;
 }
 
 a.project-link:hover .project-overlay {
@@ -280,4 +294,95 @@ h2.about {
 
 a.tab {
     padding-left: 10px;
+}
+
+@media only screen and (max-width: 395px) {
+    /* For mobile phones: */
+    p.namecard-par {
+        width: 65%;
+    }
+
+    div.hire-me-header {
+        margin: 10px;
+    }
+    
+    div.header {
+        padding-right: 0;
+    }
+
+    div.container-fluid {
+        margin-right: 0;
+        margin-left: 0;
+    }
+}
+
+@media only screen and (max-width: 575px) {
+    /* For mobile phones: */
+    .nav-div {
+        padding-right: 0;
+        text-align: center;
+    }
+
+    .nav-item-div {
+        width: 7ch;
+    }
+}
+
+@media only screen and (max-width: 620px) {
+    /* For mobile phones: */
+    div.project {
+        width: 100%;
+        height: inherit;
+        display: block;
+    }
+
+    div.project-wrapper {
+        margin: 0;
+    }
+
+    p.overlay-par {
+        width: 200px;
+        font-size: 11px;
+        margin: 10px;
+        text-align: center;
+    }
+
+    div.about-me-profile {
+        width: 100%;
+        margin: 0;
+    }
+
+    div.about-me-text {
+        display: flexbox;
+        margin: 0;
+        text-align: center;
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 520px) {
+    div.jumbo {
+        padding: 5px;
+        margin: 25px 0 15px 0;
+    }
+    
+    .profile-pic {
+        height: 200px;
+        border: solid;
+        border-color: #f0f5f9;
+    }
+    
+    div.namecard {
+        padding: 10px;
+        margin: 10px;
+
+    }
+    
+}
+
+@media only screen and (max-width: 818px) {
+    /* For mobile phones: */
+    div.namecard-tag {
+        padding: 0;
+    }
 }
