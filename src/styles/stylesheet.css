@@ -14,6 +14,10 @@ html, body {
     margin: 0;
 }
 
+span.tab {
+    margin-left: 2.0em;
+}
+
 div.generic-container {
     width: 100%;
     text-align: center;
@@ -219,6 +223,13 @@ div.project-overlay {
     background-color: #202c39;
 }
 
+div.par-wrapper {
+    display: flex;
+    text-align: center;
+    width: 500px;
+    height: 500px;
+}
+
 a.project-link {
     color: #ffffff;
     margin: 6px 6px 20px 6px;
@@ -233,6 +244,7 @@ a.project-link:hover {
 }
 
 p.overlay-par {
+    text-indent: 2.0em;
     width: 375px;
     margin: 0 auto;
 }
@@ -285,6 +297,10 @@ div.about-me-text {
     vertical-align: top;
     display: inline-block;
     padding: 10px;
+}
+
+p.about-me {
+    text-indent: 2.0em;
 }
 
 div.about-me-header {

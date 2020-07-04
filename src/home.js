@@ -56,16 +56,18 @@ function MainBody(props) {
                     imgStyle={{ backgroundImage: "url('../images/port.jpg')" }}
                     title={'Portfolio Website'}
                     description={
-                        <p className="overlay-par">
-                            This website was designed and developed entirely by me!  The front-end was
-                            written with React.js, and the site is hosted on Firebase.  This project 
-                            taught me a lot about React and the various development tools involved in 
-                            building an app like Webpack and Babel. Web design is one of my favorite ways 
-                            to combine my loves of both art and coding.  React fits well into my workstyle because 
-                            it brings the code for how things look together with the code for how things work.  
-                            As a programmer with a traditional background in languages like Java and C++, React 
-                            eases the transition into web-development by offering an Object-Oriented style approach 
-                            to building websites and applications.
+                            <p className="overlay-par">
+                                This website was designed and developed entirely by me!  The front-end was
+                                written with React.js, and the site is hosted on Firebase. This project
+                                taught me a lot about React and the various development tools involved in
+                                building an app like Webpack and Babel.
+                                <br /><span className="tab"></span>
+                                Web design is one of my favorite ways to combine my loves of both art and coding. 
+                                React fits well into my workstyle because it brings the code for how things look 
+                                together with the code for how things work. As a programmer with a traditional 
+                                background in languages like Java and C++, React eases the transition into 
+                                web-development by offering an Object-Oriented style approach to building websites 
+                                and applications.
                         </p>
                     } />
                 <Project url={'https://www.youtube.com/watch?v=KUkmpLqLkWs'}
@@ -89,10 +91,11 @@ function MainBody(props) {
                             This library provides the same interface as the NES_Keyboard, but it works
                             for the SNES controller instead.  At their core, these analog controllers
                             are simple shift-registers that store button state as a binary numbers.
+                            <br /><span className="tab"></span>
                             The NES and SNES controllers have the same communication protocol, but the
                             NES fits its button state into one byte, while the SNES requires two.  My
-                            libraries allow arduino boards to mimic the polling behavior of the game
-                            console to read the controller's button state.  Combined with libraries
+                            libraries allow Arduino boards to mimic the polling behavior of the game
+                            console to read the controller's button state. When combined with libraries
                             for controlling keyboard presses with Arduino, you have a fully functional,
                             and authentic, game controller for retro classics.  Of all the code I've
                             written, I've used this the most!
@@ -107,7 +110,9 @@ function MainBody(props) {
                             of many fun-spirited memes and copypastas on our school subreddit due to his
                             notoriously difficult classes.  I wrote a Python-based Reddit bot to periodically
                             scan the USCD subreddit for new posts about this professor and post memes in the
-                            comments.  To keep this bot running full time, the Python script lived on my
+                            comments.  
+                            <br /><span className="tab"></span>
+                            To keep this bot running full time, the Python script lived on my
                             Raspberry Pi inside a cron job that executed every 30 minutes.  I always enjoyed
                             meeting new classmates who were familiar with the bot from reading the
                             subreddit!

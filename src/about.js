@@ -11,17 +11,17 @@ function About(props) {
                 <ProfilePic />
             </div>
             <div className="about-me-text">
-                <p>
+                <p className="about-me">
                     I was born and raised in the San Francisco Bay Area.  Growing up, I loved playing guitar
                     and piano, taking photos, reading books and playing with computers.  My dad and older
                     brother were both professional programmers, and they inspired me to pick up the torch
                     and pursue a career in software myself.
                 </p>
-                <p>
+                <p className="about-me">
                     I earned two Bachelor's degrees from U.C. San Diego in Computer Science and Economics.
                     While I was a student, I worked for the Center for Peace and Security Studies as a
-                    research assistant in the Machine Learning for Social Sciences Lab.  I'm interested in pursuing roles as a software developer/engineer, data
-                    scientist/analyst or research assistant.
+                    research assistant in the Machine Learning for Social Sciences Lab.  I'm interested in 
+                    pursuing roles as a web or software developer, data analyst or research assistant.
                 </p>
             </div>
         </Container>
