@@ -13,11 +13,7 @@ import './images/post.png';
 WebFont.load({
     google: {
         families: [
-            'Shadows Into Light',
-            'Yellowtail',
             'Rock Salt',
-            'Pacifico',
-            'Permanent Marker',
             'Baloo Thambi 2:800'
         ]
     }

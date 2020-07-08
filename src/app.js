@@ -1,8 +1,6 @@
-import React from 'react';
+import React, { Suspense } from 'react';
 import NavBar from './navbar.js';
 import Home from './home.js';
-import About from './about.js';
-import Contact from './contact.js';
 import Footer from './footer.js';
 import {
     BrowserRouter as Router,
@@ -10,22 +8,24 @@ import {
     Route
   } from 'react-router-dom';
 
+/* Lazy load auxillary pages */
+const About = React.lazy(() => import('./about.js'));
+const Contact = React.lazy(() => import('./contact.js'));
+
 /* Main app wrapper */
 function App(props) {
     return (
         <Router>
             <NavBar />
-            <Switch>
-                <Route exact path="/">
-                    <Home />
-                </Route>
-                <Route path="/about">
-                    <About />
-                </Route>
-                <Route path="/contact">
-                    <Contact />
-                </Route>
-            </Switch>
+            <Suspense fallback={<div>Loading...</div>}>
+                <Switch>
+                    <Route exact path="/">
+                        <Home />
+                    </Route>
+                    <Route path="/about" component={About} />
+                    <Route path="/contact" component={Contact} />
+                </Switch>
+            </Suspense>
             <Footer />
         </Router>
     );

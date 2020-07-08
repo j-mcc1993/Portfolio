@@ -52,7 +52,8 @@ function MainBody(props) {
         <div className="generic-container">
             <h1 className="page-header">Projects</h1>
             <div className="project-wrapper">
-                <Project url={'https://github.com/j-mcc1993/Portfolio'}
+                <Project 
+                    url={'https://github.com/j-mcc1993/Portfolio'}
                     imgStyle={{ backgroundImage: "url('../images/port.jpg')" }}
                     title={'Portfolio Website'}
                     description={
@@ -70,7 +71,8 @@ function MainBody(props) {
                                 and applications.
                         </p>
                     } />
-                <Project url={'https://www.youtube.com/watch?v=KUkmpLqLkWs'}
+                <Project 
+                    url={'https://www.youtube.com/watch?v=KUkmpLqLkWs'}
                     imgStyle={{ backgroundImage: "url('../images/nes.jpg')" }}
                     title={'NES_Keyboard Arduino Library'}
                     description={
@@ -83,7 +85,8 @@ function MainBody(props) {
                             can see the code in action by clicking this text to watch my demo video!
                         </p>
                     } />
-                <Project url={'https://github.com/j-mcc1993/SNES_Keyboard'}
+                <Project 
+                    url={'https://github.com/j-mcc1993/SNES_Keyboard'}
                     imgStyle={{ backgroundImage: "url('../images/snes.jpg')" }}
                     title={'SNES_Keyboard Arduino Library'}
                     description={
@@ -101,7 +104,8 @@ function MainBody(props) {
                             written, I've used this the most!
                         </p>
                     } />
-                <Project url={'https://gist.github.com/j-mcc1993/694917ca74b254b56eef4560ff0d9eea'}
+                <Project 
+                    url={'https://gist.github.com/j-mcc1993/694917ca74b254b56eef4560ff0d9eea'}
                     imgStyle={{ backgroundImage: "url('../images/code.jpg')" }}
                     title={'Reddit Meme-Posting Bot'}
                     description={
@@ -118,7 +122,8 @@ function MainBody(props) {
                             subreddit!
                         </p>
                     } />
-                <Project url={'https://gist.github.com/j-mcc1993/ef75a9227eeac139ee94'}
+                <Project 
+                    url={'https://gist.github.com/j-mcc1993/ef75a9227eeac139ee94'}
                     imgStyle={{ backgroundImage: "url('../images/fractal.png')" }}
                     title={'Bitwise Fractal Image Generator'}
                     description={
@@ -131,7 +136,8 @@ function MainBody(props) {
                             the result is an interesting fractal image like the one shown here!
                         </p>
                     } />
-                <Project url={'https://gist.github.com/j-mcc1993/a3bd0cdd9895a0ddb833ce915bfb0bef'}
+                <Project 
+                    url={'https://gist.github.com/j-mcc1993/a3bd0cdd9895a0ddb833ce915bfb0bef'}
                     imgStyle={{ backgroundImage: "url('../images/post.png')" }}
                     title={'Reddit Top Post-Time Histogram'}
                     description={
