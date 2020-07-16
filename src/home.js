@@ -53,6 +53,24 @@ function MainBody(props) {
             <h1 className="page-header">Projects</h1>
             <div className="project-wrapper">
                 <Project 
+                    url={'https://github.com/j-mcc1993/StellA'}
+                    imgStyle={{ backgroundImage: "url('../images/tele.jpg')" }}
+                    title={'StellA'}
+                    description={
+                            <p className="overlay-par">
+                                StellA is a wireless microntroller interface that allows the user to track the
+                                field of view of their telescope or camera in the Stellarium star map application
+                                for quick and easy navigation.
+                                <br /><span className="tab"></span>
+                                StellA was inspired by computerized telescope mounts. In the past, I wanted to build my
+                                own automated telescope by hand, but the mechanical and electrical complexities proved to 
+                                be a strong deterrent. StellA achieves a similar effect to a computerized mount by allowing
+                                the operator to see exactly where their telescope is pointing on a star map. StellA uses 
+                                the Arduino 101 with its built-in gyroscope, accelerometer and Bluetooth LE modules to
+                                interact with Stellarium's HTTP API.
+                        </p>
+                    } />
+                <Project 
                     url={'https://github.com/j-mcc1993/Portfolio'}
                     imgStyle={{ backgroundImage: "url('../images/port.jpg')" }}
                     title={'Portfolio Website'}
@@ -120,6 +138,19 @@ function MainBody(props) {
                             Raspberry Pi inside a cron job that executed every 30 minutes.  I always enjoyed
                             meeting new classmates who were familiar with the bot from reading the
                             subreddit!
+                        </p>
+                    } />
+                <Project 
+                    url={'https://gist.github.com/j-mcc1993/0880415bd92d52eddaac'}
+                    imgStyle={{ backgroundImage: "url('../images/imgr.jpg')" }}
+                    title={'Reddit Imgur Scraper'}
+                    description={
+                            <p className="overlay-par">
+                                This is a simple Python script that takes in a list of subreddits and the
+                                number of posts to scan, and then scrapes images from any imgur links
+                                it finds. This was one of my first projects using PRAW, a Python wrapper for
+                                the reddit.com API. This project was also a fun way to get familiar with 
+                                imgur's public API.
                         </p>
                     } />
                 <Project 

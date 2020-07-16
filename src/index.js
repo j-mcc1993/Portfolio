@@ -9,6 +9,8 @@ import './images/port.jpg';
 import './images/code.jpg';
 import './images/fractal.png';
 import './images/post.png';
+import './images/tele.jpg';
+import './images/imgr.jpg';
 
 WebFont.load({
     google: {
