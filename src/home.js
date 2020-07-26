@@ -62,12 +62,12 @@ function MainBody(props) {
                                 field of view of their telescope or camera in the Stellarium star map application
                                 for quick and easy navigation.
                                 <br /><span className="tab"></span>
-                                StellA was inspired by computerized telescope mounts. In the past, I wanted to build my
-                                own automated telescope by hand, but the mechanical and electrical complexities proved to 
-                                be a strong deterrent. StellA achieves a similar effect to a computerized mount by allowing
-                                the operator to see exactly where their telescope is pointing on a star map. StellA uses 
-                                the Arduino 101 with its built-in gyroscope, accelerometer and Bluetooth LE modules to
-                                interact with Stellarium's HTTP API.
+                                StellA achieves a similar effect to a computerized (or GOTO) mount by allowing
+                                users to see exactly where their telescope is pointing on a star map. StellA uses 
+                                an Arduino Nano BLE (or Arduino 101) with its 9dof IMU to compute the orientation
+                                of the telescope and posts the data to a Bluetooth LE service. A Python script takes the 
+                                data from the Bluetooth service and calls into the Stellarium HTTP API to update the view in
+                                real-time.
                         </p>
                     } />
                 <Project 
